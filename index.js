@@ -5,7 +5,6 @@ let countEl = document.getElementById("count-el")
 let prevmEl = document.getElementById("prev-msg-el")
 
 function increment() {
-    //console.log("The button was clicked")
     count += 1
     countEl.innerText = count    
 }
